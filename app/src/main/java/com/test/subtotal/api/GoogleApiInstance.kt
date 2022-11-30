@@ -37,7 +37,7 @@ interface GoogleApiInstance {
 
     @GET("volumes")
     suspend fun search(
-        @Query("q") id: String,
+        @Query("q") text: String,
         @Query("maxResults") maxResults: String = "40",
         @Query("key") apiKey: String = Const.GOOGLE_CLOUD_KEY,
     ): Response<BooksResponse>

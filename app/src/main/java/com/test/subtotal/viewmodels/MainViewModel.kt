@@ -42,6 +42,7 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
         }
     }
 
+
     fun getBookFromId(id: String): ItemsItem?{
         return  foundBooks.value?.find{it.id.contains(id)}
     }

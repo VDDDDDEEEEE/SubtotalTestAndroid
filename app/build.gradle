@@ -84,8 +84,9 @@ dependencies {
     kapt "androidx.lifecycle:lifecycle-compiler:$lifecycle_version"
 
     //coroutines
-    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.1'
-    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.1'
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutines_version"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutines_version"
+    testImplementation "org.jetbrains.kotlinx:kotlinx-coroutines-test:$coroutines_version"
 
     //Coil for Image
     implementation("io.coil-kt:coil-compose:2.2.2")
