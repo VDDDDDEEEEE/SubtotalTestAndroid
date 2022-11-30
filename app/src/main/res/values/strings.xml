@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Subtotal Test Android</string>
+    <string name="search_books">Поиск книг</string>
+    <string name="unknow">Неизвестно</string>
+    <string name="date">Дата выхода:</string>
+    <string name="nothing_found">Ничего не найдено</string>
+</resources>
